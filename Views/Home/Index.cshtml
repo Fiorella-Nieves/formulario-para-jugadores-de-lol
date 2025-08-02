@@ -1,0 +1,46 @@
+﻿@model formulario_lol.Models.Cliente 
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">¡Bienvenido al Formulario de LOLOL!</h1>
+
+    <div>
+    <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-6">
+            <div class="bg-ligth p-4 rounded shadow">
+        <form asp-action= "RegistroJugadorazo" asp-controller="Home" method="post">
+
+            <div>
+            <input type="text" placeholder="Ingrese su nombre" name="nombre" >
+            </div>
+            <br>
+            <div>
+            <input type="number" placeholder="Ingrese su edad" name="edad">
+            </div>
+            <br>
+            <div>
+            <input type="text" placeholder="frecuencia de juego" list="exampleList" name="frecuencia">
+            <datalist id="exampleList">
+            <option value="Diario"></option>  
+            <option value="Semanal"></option>
+            <option value="Mensual"></option>
+            </datalist>
+            </div>
+            <br>
+            <div>
+            <input type="number" placeholder="Años de juego" name="añosJuego">
+            </div>
+            <br>
+            <div>
+            <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+        <p>@ViewData["mensaje"]</p>
+    </div>
+
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
