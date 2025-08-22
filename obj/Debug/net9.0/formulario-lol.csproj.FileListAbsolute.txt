@@ -94,3 +94,4 @@ C:\Users\Fiorella\Desktop\formulario-lol\obj\Debug\net9.0\refint\formulario-lol.
 C:\Users\Fiorella\Desktop\formulario-lol\obj\Debug\net9.0\formulario-lol.pdb
 C:\Users\Fiorella\Desktop\formulario-lol\obj\Debug\net9.0\formulario-lol.genruntimeconfig.cache
 C:\Users\Fiorella\Desktop\formulario-lol\obj\Debug\net9.0\ref\formulario-lol.dll
+C:\Users\Fiorella\Desktop\formulario-lol\obj\Debug\net9.0\formulario-lol.sourcelink.json

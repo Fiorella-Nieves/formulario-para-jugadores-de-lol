@@ -15,6 +15,7 @@
 
             <div>
             <input type="text" placeholder="Ingrese su nombre" name="nombre" >
+            <span asp-validation-for="Nombre" class="text-danger"></span> /validacion
             </div>
             <br>
             <div>
@@ -44,3 +45,8 @@
 
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} /para la validacion de los datos
