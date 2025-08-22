@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fiorella\\Desktop\\formulario-lol\\formulario-lol.csproj": {}
+    "C:\\Users\\Fiorella\\Desktop\\tarea 1 -formulario-lol\\formulario-lol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fiorella\\Desktop\\formulario-lol\\formulario-lol.csproj": {
+    "C:\\Users\\Fiorella\\Desktop\\tarea 1 -formulario-lol\\formulario-lol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fiorella\\Desktop\\formulario-lol\\formulario-lol.csproj",
+        "projectUniqueName": "C:\\Users\\Fiorella\\Desktop\\tarea 1 -formulario-lol\\formulario-lol.csproj",
         "projectName": "formulario-lol",
-        "projectPath": "C:\\Users\\Fiorella\\Desktop\\formulario-lol\\formulario-lol.csproj",
+        "projectPath": "C:\\Users\\Fiorella\\Desktop\\tarea 1 -formulario-lol\\formulario-lol.csproj",
         "packagesPath": "C:\\Users\\Fiorella\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fiorella\\Desktop\\formulario-lol\\obj\\",
+        "outputPath": "C:\\Users\\Fiorella\\Desktop\\tarea 1 -formulario-lol\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fiorella\\AppData\\Roaming\\NuGet\\NuGet.Config"

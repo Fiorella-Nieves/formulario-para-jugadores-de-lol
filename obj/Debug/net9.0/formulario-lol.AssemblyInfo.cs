@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("formulario-lol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d2cd74b1f43e9271c67aab429b1107b0c1207f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33220b1d07c4e48b5a39e08fbe8ca567c21c36e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("formulario-lol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("formulario-lol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

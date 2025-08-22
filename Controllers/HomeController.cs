@@ -25,8 +25,12 @@ public class HomeController : Controller
 
      public IActionResult RegistroJugadorazo(Cliente cliente)
     {
-        ViewData["mensaje"]= "GRACIAS " + cliente.Nombre + " POR HABERTE REGISTRADO A NUESTRO JUEGO DE LOL, se nota que no te bañas";
+        if (!ModelState.IsValid) // validacion para que salga el mensaje si el metodo se cumple
+        {
+            ViewData["mensaje"]= "GRACIAS " + cliente.Nombre + " POR HABERTE REGISTRADO A NUESTRO JUEGO DE LOL, se nota que no te bañas";
         return View("Index");
+        }
+
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
